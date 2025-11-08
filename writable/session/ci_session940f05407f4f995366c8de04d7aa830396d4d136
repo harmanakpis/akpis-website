@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1724925665;_ci_previous_url|s:50:"https://demo.akpisprofessionals.com/admin/blog/add";login_session|a:4:{s:7:"user_id";s:1:"1";s:5:"email";s:15:"admin@gmail.com";s:4:"type";s:5:"admin";s:4:"name";s:5:"Admin";}error|s:308:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The Title field must contain a unique value.</li>
+					<li>The Slug field must contain a unique value.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:1:{s:5:"error";s:3:"old";}

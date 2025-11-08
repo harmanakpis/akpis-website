@@ -1,0 +1,1835 @@
+<?php
+
+
+	if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'){
+		$link = "https://"; 
+	}else{
+		$link = "http://"; 
+	}
+	
+	// Append the host(domain name, ip) to the URL. 
+	$link .= $_SERVER['HTTP_HOST']; 
+   
+	// Append the requested resource location to the URL 
+	if(!empty($_SERVER['REQUEST_URI'])){
+		$link .= $_SERVER['REQUEST_URI']; 
+	}
+	
+
+?>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8ZZM86');
+    </script>
+    <!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-238854941-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-238854941-1');
+</script>
+
+
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:site_name" content="US-GAAP - AKPIS">
+
+    <meta property="og:url" content="https://wordpress-1285171-4657113.cloudwaysapps.com/promotion/new-US-CMA/">
+
+    <meta property="og:title" content="US-GAAP - AKPIS" />
+
+    <meta property="og:description" content="The GAAP US test, also known as Certified Management Accountant, is a two-part exam conducted by the Institute of Cost Accountants of India(ICAI)." />
+
+    <meta property="og:image" content="http://wordpress-1285171-4657113.cloudwaysapps.com/promotion/new-US-CMA/img-2/LP-2-Banner-2.jpg" />
+
+    <meta property="og:image:secure_url" content="https://wordpress-1285171-4657113.cloudwaysapps.com/promotion/new-US-CMA/img-2/LP-2-Banner-2.jpg" />
+
+    <meta property="og:image:type" content="image/jpg" />
+
+    <meta property="og:image:width" content="400" />
+
+    <meta property="og:image:height" content="300" />
+
+    <link rel="shortcut icon" href="img/logo.jpg" />
+
+    <title>US-GAAP - AKPIS</title>
+
+
+
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/swiper.css">
+
+    <link href="css/lightboxed.css" rel="stylesheet" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+<style>
+.video-s iframe{width: 100%; height: 600px; border: 0; margin-top: -300px;}
+
+</style>
+</head>
+
+
+
+<body onLoad="myForm()">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8ZZM86"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- header start -->
+
+    <header>
+
+        <nav class="container navbar navbar-expand-md d-flex navbar-light">
+
+            <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="logo"></a>
+
+            <div class="contact-details">
+
+                <a href="tel:+918527524176"><img src="img/call-icon.png" alt="call"> +918527524176</a>
+
+                <a href="mailto:support@akpisprofessionals.com"><img src="img/mail-icon.png" alt="mail"> support@akpisprofessionals.com</a>
+
+            </div>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="d-flex ml-md-auto">
+
+                <div class="collapse navbar-collapse" id="navbarText">
+
+                    <ul class="navbar-nav mr-0">
+
+                        <li class="nav-item active">
+
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#about">About Us</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#why">Why Us</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#demo">Lectures</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#achieve">Achievers</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#gallery">Gallery</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#contact">Contact</a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- banner slider start -->
+
+    <section class="banner-section">
+
+        <!-- Swiper -->
+
+        <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <img src="img-2/LP2Banner1.jpg" alt="banner-1">
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <img src="img-2/LP2Banner2.jpg" alt="banner-2">
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <img src="img-2/LP2Banner3.jpg" alt="banner-3">
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <img src="img-2/LP2Banner4.jpg" alt="banner-4">
+
+                </div>
+
+                <!--<div class="swiper-slide">
+
+                    <img src="img-2/LP-2-Banner-4.jpg" alt="banner-5">
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <img src="img-2/LP-2-Banner-5.jpg" alt="banner-6">
+
+                </div>-->
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-button-prev"></div>
+
+            <!-- <div class="swiper-pagination"></div> -->
+
+        </div>
+
+        <div class="banner-form" id="enquire">
+
+            <div class="form-inner">
+
+                <h3>Take your first step to US GAAP with AKPIS</h3>
+
+                <h4>Fill out the form and hear back from us!</h4>
+
+                <form name="enquiry-form" onSubmit="return validateForm('phone1', 'phone-error1')" action="mail/index.php" method="post">
+					<input type="hidden" name="current_url" value="<?php echo $link;?>" />
+                    <!-- <input type="hidden" class="form-control" name="enquery-form" id="enquery-form" value="enquery-form" placeholder="Enquery Form"> -->
+
+                    <div class="form-group">
+
+                        <input type="text" name="name" class="form-control" id="your-name" placeholder="Enter Name*" required>
+
+                        <span class="error" id="your-name-error"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="email" name="email" class="form-control" id="your-email" placeholder="Enter Email*" required>
+
+                        <span class="error" id="your-email-error"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="number" name="number" class="form-control" id="phone1" placeholder="Enter Phone*" maxlength="10" required>
+
+                        <span class="error" id="phone-error1"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <textarea class="form-control" name="message" id="your-message" placeholder="Message*" required></textarea>
+
+                        <span class="error" id="your-message-error"></span>
+
+                    </div>
+
+                    <!--  <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LdY-bkfAAAAAA3g5kt3Zu9f50tpMVihVLc0tT0Q"></div>
+                    </div> -->
+
+                    <div class="form-group">
+
+                        <button type="submit" name="send" value="sendMail" class="fr-sub form-control">Enquire Now</button>
+                        <!-- <input type="button" value="Enquire Now" name="send" class="fr-sub form-control" id="formsubmit"> -->
+
+                    </div>
+
+                </form>
+
+                <p>or Call Us: <a href="tel:18004194665">+919205207573</a></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- banner slider end -->
+
+    <!--<section class="free-section">
+        <div class="container">
+            <div class="text-center">
+                <a href="javascript:void(0);" class="btn-theme" onClick="freePopDiv()" data-aos="fade-up" data-aos-duration="3000">Free Advance Fundamentals Lectures Of US-CMA</a>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- section-1 -->
+
+    <!--<section class="section-1" data-aos="fade-up" data-aos-duration="3000">
+
+        <div class="container">
+
+            <img src="img/glem.jpg" alt="gliem" class="w-100">
+
+        </div>
+
+    </section>-->
+
+    <!-- section-1 -->
+
+
+
+    <!-- section-2 -->
+
+    <section class="section-2" id="about">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+
+                    <h3>ABOUT THE  <strong>COURSE</strong></h3>
+
+                    <!--<h6>If you wish to write your success story after achieving your goal of becoming a CMA in the USA, then AKPIS Professionals will be by your side.</h6>
+
+                    <p>We, at AKPIS, work judiciously with you and for your growth. Our Certified Management Accountant USA course is one of the most prominent ones. It is the highest level of certification in the field of Finance and Management Accounting
+                        issued by the Institute of Management Accountants US. AKPIS offers just the best, so, avail yourself of the professional certification from the USA in merely 6-9 months. </p>-->
+
+                    <ul>
+
+                        <li>The Financial Accounting Standards Board (FASB) establishes the US Generally Accepted Accounting Principles (US GAAP) that all the US-based businesses must adhere to.</li>
+
+                        <li>Experts from AKPIS and the wider industry will discuss recent developments in US GAAP, such as ASC 606: Revenue from Contracts with Customers, ASC 842: Leases, ASC 326: Impairment of Financial Assets, ASC 860: Transfer and Servicing of Assets and Liabilities, and ASC 805: Business Combinations and Accounting Standard Updates (ASU).</li>
+
+                        <li>With an emphasis on the real-world difficulties businesses and accountants encounter in using the US generally accepted accounting principles (GAAP), this program is designed to help its learners better grasp the topic.</li>
+
+                        <li>The curriculum includes a comprehensive examination of the recognition, measurement, presentation, and disclosure requirements for various ASCs and ASUs.</li>
+
+                      
+
+                        <!-- <li>Exam-oriented preparation with lots of practice sets</li> -->
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <img src="img-2/enroll.png" alt="pic" class="w-100" data-aos="zoom-in" data-aos-duration="3000">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-2 -->
+
+
+
+    <!-- section-5 -->
+
+    <section class="section-5">
+
+        <div class="container">
+
+            <!--<video width="100%" controls controlsList="nodownload" poster="img/main-video.jpg" data-aos="zoom-in" data-aos-duration="3000">
+
+
+
+                <source src="video/v-1.mp4" type="video/mp4">
+
+
+
+                Your browser does not support HTML video.
+
+
+
+            </video>-->
+            <div class="video-s">
+                <iframe src="https://www.youtube.com/embed/7QnyRPi-QwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="row py-5">
+
+                <div class="col-md-4">
+
+                    <div class="iconbox" data-aos="fade-down" data-aos-duration="2000">
+
+                        <h4>Optimum Guidance</h4>
+
+                        <p>Our instructors are highly qualified professionals who are well-recognized leaders in their respective fields. These leaders will lighten up the path of accounting and how you can contribute to this field of work. </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="iconbox" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300">
+
+                        <h4>Well-planned Course</h4>
+
+                        <p>Our advanced US-GAAP course is meticulously crafted to meet the ever-evolving demands of the industry and the US government. Also, the course curriculum is designed to keep the learning exciting for you.
+</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="iconbox" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="600">
+
+                        <h4>Making You Industry Ready</h4>
+
+                        <p>Training services offered by AKPIS span the gamut of accounting, reporting, and corporate governance. They are adaptable to meet the needs of businesses in an environment where the market and regulatory circumstances are constantly shifting.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-5 -->
+
+
+
+    <!-- section-6 -->
+
+    <section class="section-6" id="why">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <img src="img-2/why-choose-img.png" class="w-100" alt="akpis" data-aos="zoom-in" data-aos-duration="3000">
+
+                </div>
+
+                <div class="col-md-6 position-relative">
+
+                    <h3>WHAT  <strong>DISTINGUISHES US?</strong></h3>
+
+                   <!-- <h6>Learn from anywhere in the world:</h6>-->
+				   <p>Experience the exceptional learning at AKPIS, where we set the benchmark of education in providing the major accounting certifications, including the US CPA, US CMA, CA, US GAAP, Diploma IFRS, and more.</p>
+<p>Through the use of virtual reality technology, mentors provide students with real-time feedback on their progress. 
+We all know that to succeed in the business world, it takes more than memorized knowledge to stand out from the crowd. Trust us, as a GLEIM Authorized partner, to provide you with extensive learning resources. Invest in professional guidance and create a road map to a successful career.</p>
+<h6>Experience In-depth training from anywhere!</h6>
+
+                    <ul>
+
+                        <li>AKPIS Professionals US GAAP Course is a great way to improve your employability and add credibility to your resume.
+</li>
+
+                        <li>AKPIS provides in-person and online education opportunities so students can study at their own pace.
+</li>
+
+                        
+                    </ul>
+
+                    <span id="dots"> </span>
+
+                    <span id="more">
+
+                        <h6>Education from Industry experts!</h6>
+
+                    <ul>
+
+                        <li>When it comes to US GAAP courses, AKPIS has long been considered the gold standard.</li>
+
+                        <li>To ensure that you are among the one who succeeds, consider the professionals at AKPIS.</li>
+
+                        
+
+                    </ul>
+
+                    </span>
+
+                    <button onClick="myFunction1()" id="myBtn" class="btn-theme">Learn More</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-6 -->
+
+
+
+    <!-- section-7 -->
+
+    <!-- <section class="section-7">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3>Career <strong>Growth chart</strong></h3>
+
+                    <img src="img/arrow.png" alt="arrow" class="arrow w-100">
+
+                    <div class="icon-midbox m1" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="100" data-aos-easing="linear">
+
+                        <h4>JOIN AKPIS</h4>
+
+                        <p>Tax Academy as an “EA Student”</p>
+
+                        <img src="img/right-arrow.png" alt="arrow">
+
+                    </div>
+
+                    <div class="icon-midbox m2" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="500" data-aos-easing="linear">
+
+                        <h4>PASS</h4>
+
+                        <p>The EA Exam in 3-6 Months and become “US-CMA”</p>
+
+                        <img src="img/right-arrow.png" alt="arrow">
+
+                    </div>
+
+                    <div class="icon-midbox m3" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-easing="linear">
+
+                        <img src="img/right-arrow.png" alt="arrow">
+
+                        <h4>Become a tax professionals</h4>
+
+                        <p>Practice US Taxation in Your Employment as a Partner / Practice Manager offering unique Tax & Financial Planning Solutions</p>
+
+                    </div>
+
+                    <div class="icon-midbox m4" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="1500" data-aos-easing="linear">
+
+                        <img src="img/right-arrow.png" alt="arrow">
+
+                        <h4>Join Big Four and Mnc’s </h4>
+
+                        <p>Serve the Organization by Training Others also become Successful Tax & Finance Professionals (EA/CPA/CFP) with your Real Time Industry Experience</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+
+    <section class="section-7">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="section-7-left col-md-7">
+                    <h3>
+                        FAQ's
+                    </h3>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header " id="headingOne">
+                                <h5 class="clearfix mb-0">
+                                    <a href="" class="heading btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Who should take this course? </a>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body"> People who are already professional accountants, company secretaries, management accountants, and other finance professionals can do this course to enhance their skills and knowledge. MBA students can also pursue this certification course if they want to enter the accounting domain.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header " id="headingTwo">
+                                <h5 class="clearfix mb-0">
+                                    <a href="" class="heading btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">What does a US GAAP certification course include?</a>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">The course includes 60 hours of learning videos, presentations, online assessment, certification of course completion, and six months of LMS access. The learner can also solve their doubts through query support through the email facility.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header " id="headingThree">
+                                <h5 class="clearfix mb-0">
+                                    <a href="" class="heading btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">What are the jobs available after completing a US-GAAP course?</a>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+								<p>There are many job opportunities for people with US-GAAP certification, which include:</p>
+                                    <ul>
+                                        <li>Staff Accountant </li>
+                                        <li>Assistant Controller</li>
+                                        <li>Senior Finance Controller</li>
+										  <li>Banking Associate</li>
+										    <li>Team Lead - Finance Controller </li>
+											  <li>Chartered Accountant. </li>
+											    <li>Billing Analyst. </li>
+												  <li>Audit and Accounts Senior.</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                       <!-- <div class="card">
+                            <div class="card-header " id="headingFour">
+                                <h5 clearfix mb-0>
+                                    <a href="" class="heading btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">How many papers am I required to clear to get my CMA USA certification? </a>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    The CMA part is divided into 2 parts. <br><br> Part one has 100 MCQs and 2 essay questions. With the following sections: <br> <br>
+                                    <ul>
+
+                                        <li>Section A: External Financial Reporting Decisions</li>
+                                        <li>Section B: Planning, Budgeting and Forecasting</li>
+                                        <li>Section C: Performance Management</li>
+                                        <li>Section D: Cost Management</li>
+                                        <li>Section E: Internal Control</li>
+                                        <li>Section F: Technology and Analytics</li>
+
+
+                                    </ul>
+                                    One is expected to score at least 360 marks out of 500 to clear the exam.
+
+                                    <br><br> Part two has 100 MCQs and 2 essay questions. With the following sections: <br> <br>
+                                    <ul>
+
+                                        <li>Section A: Financial Statement Analytics</li>
+                                        <li>Section B: Planning, Budgeting and Forecasting</li>
+                                        <li>Section C: Performance Management</li>
+                                        <li>Section D: Cost Management</li>
+                                        <li>Section E: Internal Control</li>
+                                        <li>Section F: Technology and Analytics</li>
+
+                                    </ul>
+
+                                    Part two is comparatively easier than the first part and one can score almost 90% with the right guidance from AKPIS Professionals.
+
+
+                                </div>
+
+                            </div>
+
+                        </div>-->
+                    </div>
+
+
+                </div>
+                <div class="section-7-right col-md-5">
+                    <img src="img-2/FAQ.jpg" alt="" class="w-100" data-aos="zoom-in" data-aos-duration="3000">
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-7 -->
+
+    <!-- section-8 -->
+
+    <section class="section-8">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h3>What does US GAAP at AKPIS have for you?</h3>
+					<h3><strong>Concepts of Accounting</strong></h3>
+
+                    <ul>
+
+                        <li>Understanding the history of ASC (Codification), ASC, and standards established by the Securities and Exchange Commission (SEC), ASU, and the FASB conceptual framework</li>
+
+                        <li>Learn to extract useful information from your data.</li>
+
+                        <li>Tracking the accounting changes and error correction.</li>
+
+                        <li>Taking care of goodwill and other intangibles. </li>
+						<p>&nbsp;</p>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <img src="img-2/Image 1.png" alt="akpis" class="w-100" data-aos="zoom-in" data-aos-duration="3000">
+
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-md-6">
+
+                    <img src="img-2/Image 2.png" alt="akpis" data-aos="zoom-in" data-aos-duration="3000">
+
+                </div>
+
+                <div class="col-md-6">
+<h3>Converting financial statements into <strong>insights </strong></h3>
+                    
+
+                    <ul>
+
+                        <li>Learn to obtain an accurate revenue picture to detect and forecast cash flow changes.</li>
+
+                        <li>Learn to evaluate how financial activities have altered the market value of a brand over time.</li>
+
+                        
+
+                        <li>Find ways to Identify areas for development and conduct a competitive analysis.
+</li>
+
+                        <li>Learn switching to GAAP accounting to see finances in a new light.
+</li>
+						<p>&nbsp;</p>
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-8 -->
+
+    <!-- section-9 -->
+
+    <section class="section-9" id="demo">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3>Demo <strong>Lectures</strong></h3>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-7">
+
+                    <!--<video width="100%" controls controlsList="nodownload" poster="img/Link-1.jpg" data-aos="zoom-in" data-aos-duration="3000">
+
+
+
+                        <source src="video/v-2.mp4" type="video/mp4">
+
+    
+
+                        Your browser does not support HTML video.
+
+    
+
+                    </video>-->
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/soR3oir7BS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+                <div class="col-md-5">
+
+                    <!--<video width="100%" controls controlsList="nodownload" poster="img/Link-2.jpg" data-aos="zoom-in" data-aos-duration="3000">
+
+
+
+                        <source src="video/v-3.mp4" type="video/mp4">
+
+    
+
+                        Your browser does not support HTML video.
+
+    
+
+                    </video>-->
+					<iframe width="445" height="240" src="https://www.youtube.com/embed/OhhKVx-ybPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="445" height="240" src="https://www.youtube.com/embed/Z2aiAxnNm4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <!--<video width="100%" controls controlsList="nodownload" poster="img/Link-3.jpg" data-aos="zoom-in" data-aos-duration="3000">
+
+
+
+                        <source src="video/v-4.mp4" type="video/mp4">
+
+    
+
+                        Your browser does not support HTML video.
+
+    
+
+                    </video>-->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-9 -->
+
+    <!-- section-10 -->
+
+    <!-- <section class="section-10">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3>EA Course <strong>Exam Details</strong></h3>
+
+                    <p>EA exam has three parts.</p>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+
+                        <li class="nav-item">
+
+                            <a class="nav-link active" id="pills-Individuals-tab" data-toggle="pill" href="#pills-Individuals" role="tab" aria-controls="pills-Individuals" aria-selected="true">Individuals</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" id="pills-Business-tab" data-toggle="pill" href="#pills-Business" role="tab" aria-controls="pills-Business" aria-selected="false">Business</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" id="pills-Representation-tab" data-toggle="pill" href="#pills-Representation" role="tab" aria-controls="pills-Representation" aria-selected="false">Representation</a>
+
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+
+                        <div class="tab-pane fade show active" id="pills-Individuals" role="tabpanel" aria-labelledby="pills-Individuals-tab">
+
+                            <ul>
+
+                                <li>Preliminary Work with Taxpayer Data – 17 questions</li>
+
+                                <li>Income and Assets – 21 questions</li>
+
+                                <li>Deductions and Credits – 21 questions</li>
+
+                                <li>Taxation and Advice – 14 questions</li>
+
+                                <li>Specialized Returns for Individuals – 12 questions</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-Business" role="tabpanel" aria-labelledby="pills-Business-tab">
+
+                            <ul>
+
+                                <li>Business Entities – 28 questions</li>
+
+                                <li>Business Financial Information – 39 questions</li>
+
+                                <li>Specialized Returns and Taxpayers – 18 questions</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-Representation" role="tabpanel" aria-labelledby="pills-Representation-tab">
+
+                            <ul>
+
+                                <li>Practices and Procedures – 25 questions</li>
+
+                                <li>Representation before the IRS – 24 questions</li>
+
+                                <li>Specific Types of Representation – 19 questions</li>
+
+                                <li>Filing Process – 17 questions</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!-- section-10 -->
+
+    <!-- section-11 -->
+
+    <section class="section-11" id="achieve">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3>Our <strong>Achievers</strong></h3>
+
+                    <p>Great education. Great outcomes.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="achieve-team">
+
+                <div class="row1">
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a2.jpeg" alt="achieve">
+
+                        <p>Special shout-out to professionals for their constant support and guidance.</p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a4.jpeg" alt="achieve">
+
+                        <p>Indeed, their main attractions are well experienced and friendly faculties, </p>
+
+                    </div>
+					<div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a1.jpeg" alt="achieve">
+
+                        <p>AKPIS Professionals definitely would make the journey a whole lot simpler. Perfect</p>
+
+                    </div>
+					<div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a5.jpeg" alt="achieve">
+
+                        <p> With the high-quality teaching style and support, set your career goals.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="row2">
+					<div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a7.jpeg" alt="achieve">
+
+                        <p>Thank You, AKPIS team, for convincing me to choose you over any other educators. </p>
+
+                    </div>
+
+					
+					<div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a3.jpeg" alt="achieve">
+
+                        <p>AKPIS Professionals do their part very well</p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a6.jpeg" alt="achieve">
+
+                        <p>The AKPIS took my CMA preparation to the very next level.</p>
+
+                    </div>
+
+                    
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a8.jpeg" alt="achieve">
+
+                        <p>The support and encouragement of the AKPIS team were remarkable.</p>
+
+                    </div>
+					 <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a10.jpeg" alt="achieve">
+
+                        <p> The journey with AKPIS has been brilliant.</p>
+
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="row3">
+
+                   <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a9.jpeg" alt="achieve">
+
+                        <p>With AKPIS, you are destined to achieve what you have set out to. </p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a11.jpeg" alt="achieve">
+
+                        <p>Undoubtedly all the concepts were taken up, and queries were solved. </p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a13.jpeg" alt="achieve">
+
+                        <p>AKPIS has always been approachable and trouble-shooters for me. </p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a14.jpeg" alt="achieve">
+
+                        <p>Indeed, every class was very engaging and helpful in achieving the goal. </p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a15.jpeg" alt="achieve">
+
+                        <p>AKPIS gave me direction to set my career goals. </p>
+
+                    </div>
+					<div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a21.jpeg" alt="achieve">
+
+                        <p>The quality of study material, classes, and teachers' knowledge are commendable. </p>
+
+                    </div>
+
+                </div>
+				
+                <div class="row4">
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a16.jpeg" alt="achieve">
+
+                        <p>The team of AKPIS supported me right from the academics till I got the certification. </p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a17.jpeg" alt="achieve">
+
+                        <p>The classes and lessons are valuable, offering every information you want.</p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a18.jpeg" alt="achieve">
+
+                        <p>Every course is well structured and consists of excellent teaching and learning styles.</p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a19.jpeg" alt="achieve">
+
+                        <p>Excellent certification courses are available that help in setting career goals.</p>
+
+                    </div>
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a20.jpeg" alt="achieve">
+
+                        <p>AKPIS teaching and online classes are tremendously effective in clearing the concept. </p>
+
+                    </div>
+					
+					
+
+                </div>
+				
+
+                <div class="row5">
+
+                    
+
+                    <div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a22.jpeg" alt="achieve">
+
+                        <p>Undoubtedly, AKPIS provides dedicated efforts and excellent material to achieve certification. </p>
+
+                    </div>
+					<div class="achieve" data-aos="flip-right" data-aos-duration="3000">
+
+                        <img src="img/a12.jpeg" alt="achieve">
+
+                        <p>Study tips offered by the AKPIS Instructor helped me immensely plan my exam strategy.</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-11 -->
+
+    <!-- section-12 -->
+
+    <section class="section-12">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3>Our <strong>Students</strong></h3>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <img src="img/congrats1.png" alt="akpis" class="w-100" data-aos="zoom-in" data-aos-duration="3000">
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <img src="img/congrats2.png" alt="akpis" class="w-100" data-aos="zoom-in" data-aos-duration="3000">
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <img src="img/congrats3.png" alt="akpis" class="w-100" data-aos="zoom-in" data-aos-duration="3000">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-12 -->
+
+
+    <!-- success stories -->
+    <!--<section class="success-story">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3>Student<strong> success story</strong></h3>
+
+                </div>
+
+            </div>
+
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-md-4">
+
+                    <video width="100%" controls controlsList="nodownload" poster="img-2/thumb-2.jpg" data-aos="zoom-in" data-aos-duration="3000">
+    
+    
+    
+                            <source src="video/success-1.mp4" type="video/mp4">
+    
+        
+    
+                            Your browser does not support HTML video.
+    
+        
+    
+                        </video>
+                    <h5>
+                        Success Story Of How B.Com Student Passed US CMA | USCPA ACCA Courses | AKPIS CPA CMA IFRS ACCA
+                    </h5>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <video width="100%" controls controlsList="nodownload" poster="img-2/thumb-1.jpg" data-aos="zoom-in" data-aos-duration="3000">
+    
+    
+    
+                            <source src="video/success-2.mp4" type="video/mp4">
+    
+        
+    
+                            Your browser does not support HTML video.
+    
+        
+    
+                        </video>
+                    <h5>
+                        Recently US CMA Passed Candidate Interview | USCMA Coaching | AKPIS CPA CMA IFRS ACCA
+
+                    </h5>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>-->
+    <!-- success story  -->
+
+    <!-- section-13 -->
+
+    <section class="section-13" id="gallery">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3>Our <strong>Gallery</strong></h3>
+
+                </div>
+
+            </div>
+
+            <div class="row gallery1 sec1">
+
+                <div class="col-md-12 gallery-col">
+
+                    <img class="lightboxed column" rel="group2" src="img/a1.jpeg" data-link="img/a1.jpeg" alt="Image Alt" data-caption="1" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a2.jpeg" data-link="img/a2.jpeg" alt="Image Alt" data-caption="2" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a3.jpeg" data-link="img/a3.jpeg" alt="Image Alt" data-caption="3" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a4.jpeg" data-link="img/a4.jpeg" alt="Image Alt" data-caption="4" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a5.jpeg" data-link="img/a5.jpeg" alt="Image Alt" data-caption="5" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a6.jpeg" data-link="img/a6.jpeg" alt="Image Alt" data-caption="6" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a7.jpeg" data-link="img/a7.jpeg" alt="Image Alt" data-caption="7" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a8.jpeg" data-link="img/a8.jpeg" alt="Image Alt" data-caption="8" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a9.jpeg" data-link="img/a9.jpeg" alt="Image Alt" data-caption="9" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a10.jpeg" data-link="img/a10.jpeg" alt="Image Alt" data-caption="10" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a11.jpeg" data-link="img/a11.jpeg" alt="Image Alt" data-caption="11" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a12.jpeg" data-link="img/a12.jpeg" alt="Image Alt" data-caption="12" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a13.jpeg" data-link="img/a13.jpeg" alt="Image Alt" data-caption="13" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a14.jpeg" data-link="img/a14.jpeg" alt="Image Alt" data-caption="14" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a15.jpeg" data-link="img/a15.jpeg" alt="Image Alt" data-caption="15" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a16.jpeg" data-link="img/a16.jpeg" alt="Image Alt" data-caption="16" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a17.jpeg" data-link="img/a17.jpeg" alt="Image Alt" data-caption="17" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a18.jpeg" data-link="img/a18.jpeg" alt="Image Alt" data-caption="18" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a19.jpeg" data-link="img/a19.jpeg" alt="Image Alt" data-caption="19" data-aos="flip-down" data-aos-duration="2000" />
+
+                    <img class="lightboxed column" rel="group2" src="img/a20.jpeg" data-link="img/a20.jpeg" alt="Image Alt" data-caption="20" data-aos="flip-down" data-aos-duration="2000" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-13 -->
+
+    <!-- section-14 -->
+
+    <section class="section-14">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3>Our Students <strong>Working in mnc's</strong></h3>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="swiper SwiperCat">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl1.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl2.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl3.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl4.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl5.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl6.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl7.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl8.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl9.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <img src="img/cl10.jpg" alt="client" class="w-100">
+
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+
+                        <div class="swiper-button-prev"></div>
+
+                        <div class="swiper-pagination"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section-14 -->
+
+    <!-- section-15 -->
+
+    <!--<section class="section-15">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-8">
+
+                    <h3>GIFT YOURSELF A FREE DEMO CLASS,<strong> 24 HRS FREE TRIAL AND LOTS OF DISCOUNTS.</strong></h3>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <form action="subscribe/index.php" method="post" class="form-inline">
+						<input type="hidden" name="current_url" value="<?php echo $link;?>" />
+                        <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+
+                        <button type="submit" class="btn btn-submit">
+
+                            <img src="img/long-arrow.png" alt="arrow" class="w-100">
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>-->
+
+    <!-- section-15 -->
+
+    <!-- footer -->
+
+    <footer id="contact">
+
+        <div class="footer-section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-4">
+
+                        <p>AKPIS's US-GAAP certification program may be a stepping stone to various accounting positions at prominent multinational corporations. Our goal as a premier certification course provider is to assist each learner reach their fullest potential so that they may become future industry leaders in the exciting and rewarding subject of accounting. Contact us and start immediately on the path to a successful career! </p>
+
+                        <br><br>
+
+                        <h4>Our Location</h4>
+
+                        <p><strong>A - 93 B, Lajpat Nagar 2, Delhi - 110024</strong></p>
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <h4>Contact Details</h4>
+
+                        <h6>Email</h6>
+
+                        <a href="mailto:support@akpisprofessionals.com">support@akpisprofessionals.com</a>
+
+                        <h6>Phone No.</h6>
+
+                        <a href="tel:+918527524176">+918527524176</a>
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <h4>Social Media</h4>
+
+                        <a href="https://www.facebook.com/AKPISPROFESSIONALS/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                        <a href="https://www.youtube.com/c/AKPISProfessionals" target="_blank"><i class="fab fa-youtube"></i></a>
+
+                        <a href="https://www.instagram.com/cashammisaluja/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                        <a href="https://www.linkedin.com/company/akpis-ca-cpa-cma-courses/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom text-center">
+
+            <p>Copyright © 2022 AKPIS Professionals | All Rights Reserved</p>
+
+        </div>
+
+    </footer>
+
+    <!-- footer -->
+
+
+    <div class="banner-form load" id="enquireForm">
+
+        <a href="javascript:void(0);" alt="close" onClick="closeForm()"><i class="fas fa-times-circle"></i></a>
+
+        <div class="form-inner">
+
+            <h3>Take your first step to US GAAP with AKPIS</h3>
+
+            <h4>Fill out the form and hear back from us!</h4>
+
+            <form name="enquiry-form" onSubmit="return validateForm('phone2', 'phone-error2')" action="mail/index.php" method="post">
+				<input type="hidden" name="current_url" value="<?php echo $link;?>" />
+                <!-- <input type="hidden" class="form-control" name="enquery-form" id="enquery-form" value="enquery-form" placeholder="Enquery Form"> -->
+
+                <div class="form-group">
+
+                    <input type="text" name="name" class="form-control" id="your-name" placeholder="Enter Name*" required>
+
+                    <span class="error" id="your-name-error"></span>
+
+                </div>
+
+                <div class="form-group">
+
+                    <input type="email" name="email" class="form-control" id="your-email" placeholder="Enter Email*" required>
+
+                    <span class="error" id="your-email-error"></span>
+
+                </div>
+
+                <div class="form-group">
+
+                    <input type="number" name="number" class="form-control" id="phone2" placeholder="Enter Phone*" maxlength="10" required>
+
+                    <span class="error" id="phone-error2"></span>
+
+                </div>
+
+                <div class="form-group">
+
+                    <textarea class="form-control" name="message" id="your-message" placeholder="Message*" required></textarea>
+
+                    <span class="error" id="your-message-error"></span>
+
+                </div>
+
+                <!--  <div class="form-group">
+                    <div class="g-recaptcha" data-sitekey="6LdY-bkfAAAAAA3g5kt3Zu9f50tpMVihVLc0tT0Q"></div>
+                </div> -->
+
+                <div class="form-group">
+
+                    <button type="submit" name="send" value="sendMail" class="fr-sub form-control">Enquire Now</button>
+                    <!-- <input type="button" value="Enquire Now" name="send" class="fr-sub form-control" id="formsubmit"> -->
+
+                </div>
+
+            </form>
+
+            <p>or Call Us: <a href="tel:18004194665">+919205207573</a></p>
+
+        </div>
+
+    </div>
+
+    <div class="banner-form load" id="downloadForm">
+
+        <a href="javascript:void(0);" alt="close" onClick="closeForm()"><i class="fas fa-times-circle"></i></a>
+
+        <div class="form-inner">
+
+            <h3>Download Brochure for USA-GAAP</h3>
+
+            <form name="enquiry-form" onsubmit="return validateForm('phone3', 'phone-error3')" action="download/index.php" method="post">
+				<input type="hidden" name="current_url" value="<?php echo $link;?>" />
+                <!-- <input type="hidden" class="form-control" name="enquery-form" id="enquery-form" value="enquery-form" placeholder="Enquery Form"> -->
+
+                <div class="form-group">
+
+                    <input type="text" name="name" class="form-control" id="your-name" placeholder="Enter Name*" required>
+
+                    <span class="error" id="your-name-error"></span>
+
+                </div>
+
+                <div class="form-group">
+
+                    <input type="number" name="number" class="form-control" id="phone3" placeholder="Enter Phone*" maxlength="10" required>
+
+                    <span class="error" id="phone-error3"></span>
+
+                </div>
+
+                <div class="form-group">
+
+                    <button type="submit" name="send" value="sendMail" class="fr-sub form-control">Download</button>
+                    <!-- <input type="button" value="Enquire Now" name="send" class="fr-sub form-control" id="formsubmit"> -->
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="free load" id="freePop">
+
+        <a href="javascript:void(0);" alt="close" onClick="closeForm()"><i class="fas fa-times-circle"></i></a>
+
+        <div class="form-inner">
+
+            <h3>US-CMA <strong>Free Courses</strong></h3>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="https://www.youtube.com/watch?v=D31mwI_IRPo" target="_blank">
+                            <div class="img-cap">
+                                <img src="img-2/ss1.jpg" alt="img">
+                                <h5>US CPA /US CMA fundamental Lecture 1</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.youtube.com/watch?v=RXFRRMJzo1E" target="_blank">
+                            <div class="img-cap">
+                                <img src="img-2/ss2.jpg" alt="img">
+                                <h5>US CPA US CMA Advance Fundamental Lecture 2</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.youtube.com/watch?v=kRcdPUnUeHE" target="_blank">
+                            <div class="img-cap">
+                                <img src="img-2/ss3.jpg" alt="img">
+                                <h5>Deferred Tax IAS 12 ASC 706 Lecture 1#USCPA #ACCA#USCMA #CA FINAL</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="https://www.youtube.com/watch?v=eTM66QEj6Z4" target="_blank">
+                            <div class="img-cap">
+                                <img src="img-2/ss4.jpg" alt="img">
+                                <h5>IAS 12 Lecture 2 #USCPA #IFRS #DIPLOMA IN IFRS</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.youtube.com/watch?v=soR3oir7BS0" target="_blank">
+                            <div class="img-cap">
+                                <img src="img-2/ss5.jpg" alt="img">
+                                <h5>Basic Terminology of US GAAP | Briefly Explained | Akpis Professionals</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.youtube.com/watch?v=9OAXZc6dzJI" target="_blank">
+                            <div class="img-cap">
+                                <img src="img-2/ss6.jpg" alt="img">
+                                <h5>US CPA/ US CMA BASIC LECTURE 1( Income Statement Basic Concepts )</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- <a href="docs/2021 CMA Exam Guide.pdf" target="_blank" class="fix-btn">Download Brochure</a> 
+
+    <a href="javascript:void(0);" class="fix-btn" onClick="downloadBrochure()">Download Brochure</a>-->
+
+    <a href="javascript:void(0);" class="fix-btn2" onClick="myForm()">Enquire Now</a>
+
+    <!-- <a href="#enquire" class="fix-btn3">Enquire Now</a> -->
+
+    <a href="https://wa.me/918527524176" target="_blank" class="w-aap"><img src="img/w-aap.png" alt="w-aap" data-aos="zoom-in" data-aos-duration="3000"></a>
+
+
+
+    <a href="#" ID="backToTop"></a>
+
+
+
+    <!-- jQuery and Bootstrap -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="fontawesome/js/all.min.js"></script>
+
+    <script src="js/swiper.js"></script>
+
+    <script src="js/custom.js"></script>
+
+    <script src="js/lightboxed.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+    <script>
+        AOS.init();
+    </script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
+</body>
+
+<script type="text/javascript">
+    function validateForm(phnDiv, divId = false) {
+        rtrn = true;
+        phnValue = $('#' + phnDiv).val();
+        if (phnValue.length != 10 || phnValue == '') {
+            rtrn = false;
+            if (divId) {
+                $("#" + divId).html('Please enter 10 digit phone no.');
+            } else {
+                alert('Please enter 10 digit phone no.');
+            }
+        }
+        return rtrn;
+    }
+</script>
+
+</html>

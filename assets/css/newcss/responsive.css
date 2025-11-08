@@ -1,0 +1,917 @@
+@media (min-width: 1699px) {
+  .container {
+    max-width: 1699px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1693px) {
+  .full_description_certified h1 {
+  	font-size:75px;
+  }
+}
+
+
+@media(max-width:1500px) {
+  .brace-text {
+    right: -35px;
+  }
+
+  .brace-text1 {
+    right: 0;
+  }
+
+  .cpa-btn {
+    padding: 18px 10px;
+
+  }
+
+  .cpa-btn .big-text {
+    font-size: 28px;
+  }
+
+  .cpa_heading h1 {
+    font-size: 49px;
+  }
+
+  .home_component {
+    padding: 8px !important;
+  }
+}
+
+@media (max-width:1400px) {
+  .home_component {
+    margin: 8px !important;
+  }
+
+  .our_alumini-heading {
+    font-size: 32px;
+
+  }
+  .quickbooksbanner_txt h2 {
+    font-size: 74px;
+   
+}
+.zoho_text h2 {
+    font-size: 44px;
+ 
+}
+.about_course {
+    font-size: 42px;
+}
+  
+
+}
+
+@media(max-width:1350px){
+  .feature_box{
+    height: 142px;
+}
+.full_description_certified h1 {
+
+    font-size: 60px;
+
+  }
+}
+
+@media(max-width:1200px) {
+  .cpa_heading h1 {
+    font-size: 36px;
+  }
+
+  .our_program_right ul li a {
+    font-size: 12px;
+  }
+
+  .firstComponent {
+    gap: 0px;
+  }
+
+  .our_alumini-heading {
+    font-size: 24px;
+
+  }
+  .full_description_certified h1{
+   font-size: 56px;
+  }
+  .feature_box {
+    height: 190px;
+}
+.certified_internal_auditior_heading h2{
+	font-size:56px;
+}
+.cma_heading h2{
+	font-size:56px;
+}
+.carrer_after_heading h2 {
+		font-size: 44px;
+    }
+.quickbooksbanner_txt h2 {
+    font-size: 54px;
+   
+}
+.quickbooksbanner_txt p {
+    font-size: 14px;
+    }
+.quickbooksbanner_txt h6 {
+
+    font-size: 14px;
+
+}
+.partner_img{
+	width:100px;
+	height:100px;
+}
+.best_seller_hero h2 {
+    font-size: 44px;
+   
+}
+
+}
+
+@media(max-width:1024px) {
+  .cpa_heading h1 {
+    font-size: 24px;
+  }
+
+  .cpa-btn .big-text {
+    font-size: 22px;
+  }
+  .carrer_after_heading h2 {
+		font-size: 24px;
+    }
+.quickbooks_training h2{
+	font-size:56px;
+}
+.attend_this_QuickbooksHeading h2{
+	font-size:36px;
+}
+.take_quickbooksheading h2{
+	font-size:52px;
+}
+
+.zoho_text h2{
+	font-size:42px;
+}
+.about_course {
+    font-size: 48px;
+   
+}
+.zoho_about_para {
+    font-size: 16px;
+}
+.why_join_courseZohoHeading {
+    font-size: 38px;
+
+}
+.learning_pathxero h2 {
+   
+    font-size: 56px;
+   
+}
+.course_feature_xeroHeading h2
+ {
+    font-size: 46px;
+  
+}
+.vitually_anywhere_para h2 {
+    font-size: 42.5px;
+  
+}
+}
+
+@media (max-width:992px) {
+  .home_main_component {
+    display: none;
+  }
+  .cpa_usa_heading h1 {
+    font-size: 49px;
+   }
+   .cpa-card{
+    margin: 10px 0;
+  }
+  .why_chooseakpis_heading h1 {
+
+    font-size: 48px;
+   
+}
+.feature_box {
+    padding: 16px 14px;
+    height: 172px;
+}
+.feature_box p{
+  font-size: 15px;
+}
+ .hero_desktop {
+        height: 651px;
+ }
+.full_description_certified h1 {
+        font-size: 35px;
+    }
+ .full_description_certified p{
+    font-size: 16px;
+  }
+.para_bakerchoose h2 {
+    font-size: 22px;
+  }
+.para_bakerchoose h4 {
+    font-size: 18px;
+
+}
+.para_bakerchoose p {
+    font-size: 15px;
+
+}
+.cpa_evaluation h2 {
+    font-size: 18px;
+}
+.cpa_evaluation p {
+    font-size: 14px;
+}
+.heading_global h2 {
+  font-size: 29px;
+  }
+  .global_mentor_para h2{
+     font-size: 22px;
+  }
+  .visionary_global {
+    font-size: 38px;
+}
+.pathwayfind {
+  font-size: 45px !important;
+}
+  
+.down_Cma_course {
+    font-size: 42px;
+     font-weight: 700;
+  
+}
+.btn_down_Cma button {
+    padding: 20px 15px;
+     font-size: 14px;
+}
+.alumini_success_header {
+    font-size: 40px;
+   text-align: center;
+}
+.downloadmcq_heading{
+ font-size: 35px;
+  
+}
+.download_mcqButton button {
+    padding: 20px 15px;
+    font-size: 14px;
+  
+}
+.testomonial_heading {
+ 
+    font-size: 36px;
+
+}
+
+.testonminal_paragraph p {
+    font-size: 10px;
+
+}
+.insight_usstudent_heading h2 {
+    font-size: 37px;
+    
+}
+.prometriccity_heading {
+   
+    font-size: 46px;
+   
+}
+.other_course_Cma p {
+    font-size: 14px;
+ 
+}
+.download_mcqButton{
+ margin: 30px 0;
+}
+.content_partner h2{
+font-size:42px;
+padding-bottom:0px;
+line-height: 50px;
+
+}
+
+.para_achieve_dreamUsa h2 {
+    font-size: 31px;
+  
+}
+.content_partner p{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.EAcopmany_heading h2 {
+    font-size: 31px;
+}
+.EA_heading_enrollment h2 {
+   
+    font-size: 35px;
+	padding:0px;  
+}
+.why_enrollmentAgent_para p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.why_eacard h2 {
+    font-size: 18px;
+}
+.why_eacard p {
+    font-size: 15px;
+}
+.why_EAform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+ .step_bg1 h1 {
+    font-size: 23px;
+  
+}
+.certified_internal_auditior_heading h2{
+	font-size:42px;
+}
+.cma_heading h2{
+	font-size:45px;
+}
+
+.ranked_CFA_main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.program_hightlightCFA-heading h2 {
+    font-size: 22px;
+ 
+}
+.program_hightlightCFA-heading p {
+
+    font-size: 14px;
+}
+.para_achieve_CFA li span {
+   
+    line-height: 28px;
+}
+.carrer_after_heading h2 {
+ 
+    font-size: 31px;
+   
+}
+.carrer_after_heading p {
+    font-size: 15px;
+   
+	}
+	
+.still_confused_heading h2 {
+    font-size: 37px;
+ }
+ .still_confused_heading p {
+    font-size: 16px;
+  
+}
+.quickbook-trading-schedule-books h2 {
+   
+    font-size: 48px;
+ 
+}
+
+.zoho_text h2{
+	font-size:42px;
+}
+.zoho_text p {
+    font-size: 14px;
+    padding: 0px 0;
+}
+.about_course {
+    font-size: 36px;
+    
+}
+.gallery {
+    
+    width: 200px;
+    height: 130px;
+ 
+}
+.about_programxero_heading h2{
+	font-size:31px;
+}
+
+}
+
+
+@media(max-width: 767px) {
+  .our_program_right {
+    display: none;
+    background-color: var(--accent-blue);
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+
+  }
+
+  .hero_desktop {
+    height: 1080px;
+  }
+
+  .cpa_img {
+    margin-top: 10px;
+  }
+
+  .our_alumini-heading{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .our_program_right ul {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+
+    list-style: none;
+
+  }
+
+  .our_program_right ul li {
+    width: 100%;
+  }
+
+  .our_program_right ul li a {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+  }
+
+  .our_program_right ul li a:hover {
+    background: #f28f18;
+    color: #fff;
+    transform: translateX(5px);
+     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+  .timeline-item::after{
+    top: 60px;
+    left: 30%;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+
+  .timeline-item {
+    margin-bottom: 60px;
+  }
+
+  .brace,
+  .brace-text {
+    display: none;
+  }
+  .why_chooseakpis_heading h1{
+    font-size: 30px;
+  }
+   .full_description_certified h1{
+   font-size: 36px;
+   margin: 20px 0;
+  }
+  .why_chooseakpis_heading p {
+    font-size: 15px;
+    
+}
+.para_bakerchoose h2 {
+    font-size: 25px;
+   padding: 20px 0;
+}
+.para_bakerchoose h4 {
+    font-size: 20px;
+    padding: 20px 0;
+}
+.heading_global h2 {
+  
+    font-size: 24px;
+  
+}
+.global_mentor_para p {
+    font-weight: 400;
+    font-size: 14px;
+}
+.visionary_global {
+    font-size: 23px;  
+}
+.pathwayfind {
+ font-size: 32px !important;
+   
+}
+.cpa_cer_para h2{
+  font-size: 30px;
+}
+.cpa_exam_fee{
+    margin: 0px 0 0 0;
+}
+.cpa_exam_main_heading h2 {
+    font-size: 42px;
+
+}
+
+.cpa_certifiction {
+    padding: 0;
+}
+.use_exam_cpa h2 {
+    font-size: 32px;
+ 
+}
+.down_Cma_course {
+    font-size: 28px;
+  
+}
+.btn_down_Cma{
+  text-align: center;
+  margin: 10px 0;
+}
+.alumini_success_header {
+    font-size: 32px;
+  
+}
+ .downloadmcq_heading {
+   font-size: 30px;
+}
+.download_mcqButton{
+ margin: 20px 0;
+}
+.akspit_imapct_heading {
+ 
+    font-size: 30px;
+   
+}
+.testomonial_heading {
+
+    font-size: 41px;
+  
+}
+.explore_webinars_text{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.insight_usstudent_heading{
+  padding-bottom: 15px;
+}
+.insight_usstudent_heading h2{
+    font-size: 30px;
+}
+.prometriccity_heading {
+    font-size: 45px;
+  }
+  .other_course_Cma{
+    margin: 10px 0;
+  }
+  .footer_left{
+    padding: 15px 0;
+  }
+
+  .cma_batch_slider{
+    margin: 0 25px;
+  }
+  .Our_alumini_slider{
+    margin: 0 25px;
+  }
+  .alumni-slider{
+    margin: 0 25px;
+  }
+  .testomoinal_slider{
+
+    margin: 0 25px;
+  }
+  .akpis_student_noone .cma_heading h1 {
+        font-size: 2rem;
+    }
+    .akpis-card {
+        padding: 25px 15px;
+    }
+ .image-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+ }
+ .cma_heading h1 {
+    font-size: 26px;
+   
+    margin-bottom: 10px;
+
+}
+.about_instructor_title h2{
+   font-size: 16px;
+   }
+
+.visionary_card {
+    padding: 10px 5px;
+    margin: 10px 0;
+}
+.cma_us_admission_header {
+    font-size: 32px;
+   }
+   .cma_us_admission_para {
+
+    font-size: 16px;
+    line-height: 1.5;
+  
+}
+
+.EAcopmany_heading{
+	margin-bottom:10px;
+}
+.EA_heading_enrollment h2 {
+   
+    font-size: 29px;
+	padding:0px;  
+}
+.certified_public{
+	padding:0px;
+}
+.visionary_in_global{
+    padding: 20px 20px;
+}
+.tax_expert h4 {
+    font-size: 26px;
+}
+.tax_expert p {
+    font-size: 15px;
+   }
+ .step_bg1 h1 {
+    font-size: 23px;
+  
+}
+.irs_requirement {
+	margin:10px;
+	padding:15px 10px;
+}
+.irs_requirement h3 {
+    font-size: 20px;
+   
+}
+.irs_requirement p{
+    font-size: 14px;
+   
+}
+.EA_heading_para h4 {
+    font-size: 14px;
+}
+.cma_heading h2{
+	font-size:28px;
+	margin-top:10px;
+}
+.cma_heading p {
+    font-size: 15px;  
+}
+.certified_internal_auditior_heading p{
+	font-size:14px;
+}
+
+.go_globalheader h2 {
+    font-size: 16px;
+	}
+.go_globalheader p {
+    font-size: 11px;
+  }
+  
+  
+.why_akpis_cia h2 {
+    font-size: 31px;
+  }
+  
+.why_akpis_cia_btn {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main_why_akpis h2 {
+    font-size: 24px;
+	}
+	.main_why_akpis p {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+.go_globalwith {
+	margin:10px 0;
+}
+section.achive-your-dreams-cma-usa {
+    padding: 0px 0;
+}
+.para_achieve_dreamUsa p {
+    font-size: 15px;
+    
+    padding: 5px;
+   
+}
+.para_achieve_CFA li span {
+    font-size: 16px;
+ 
+    line-height: 24px;
+}
+.ranked_CFA_main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.cfa_curriculumbg {
+    padding: 0px 0px;
+   
+}
+.quickbooksbanner_txt h2 {
+    font-size: 51px;
+   
+}
+.quickbooks_training h2{
+	font-size:22px;
+}
+.attend_this_QuickbooksHeading p{
+	font-size:14px;
+}
+.attend_this_QuickbooksHeading ul li {
+	font-size: 15px;
+   
+}
+
+.take_quickbooksheading h2{
+	font-size:22px;
+}
+section.take_quickbooks{
+	padding:20px 10px;
+}
+.take_quickbooksheading p {
+    font-size: 14px;
+  }
+.quickbook-trading-schedule-books h2 {
+   
+    font-size: 32px;
+ 
+}
+
+.why_choose_acca_heading h2 {
+   
+    font-size: 35px;
+	padding-bottom:10px;
+  
+}
+.about_acca_content h2 {
+    font-size: 32px;
+    padding-bottom:10px;
+}
+.who_can_apply_card .card-header {
+ 
+    font-size: 24px;
+}
+
+.zoho_text h2{
+	font-size:22px;
+}
+.why_join_courseZohoHeading {
+    font-size: 27px;
+
+}
+
+.partner_img{
+	width:80px;
+	height:80px;
+}
+.best_seller_hero p{
+	font-size:16px;
+}
+.virtually_anywhere_xero {
+	padding:0px
+}
+.vitually_anywhere_para h2 {
+    font-size: 34px;
+   
+}
+.gallery{
+    width: 210px;
+    height: 100px;
+	margin:15px auto;
+}
+.about_programxero_heading h2{
+	font-size:18px;
+	margin-top:24px;
+}
+}
+
+@media(max-width:692px) {
+.cpa_img{
+  height: 580px;
+}
+.heading_global span {
+    font-size: 30px !important;
+   
+}
+.dp_ifrs_para p {
+    font-size: 18px;
+   
+}
+.carrer_position a {
+    font-size: 34px;
+    
+}
+.our_training_moduleCfa h2 {
+    font-size: 28px;
+    
+}
+
+.attend_this_QuickbooksHeading{
+	padding:20px 0;
+}
+
+.EAcopmany_heading span {
+    font-size: 16px;
+}
+
+}
+
+@media(max-width:575px){
+    .feature_box {
+    padding: 16px 14px;
+    height: 190px;
+}
+.menu_btn button {
+    margin: 5px;
+    padding: 10px 16px;
+}
+	
+ section.Desktop_imgage_cpa {
+    padding: 0;
+ }
+
+ section.our_aluminiWork {
+    padding: 20px 0 !important;
+ }
+ .certified_internal_auditior_heading h2{
+	font-size:28px;
+}
+.cpa_heading .cpt_title-heading
+ {
+    font-size: 22px;
+   
+    padding: 10px 15px;
+}
+
+.cpa_heading .cpa_title_desc {
+    font-size: 17px;
+  
+    padding: 0px 15px;
+}
+.carrer_counter_ifrs {
+	gap:20px;
+}
+  .cpa-btn .big-text {
+        font-size: 24px;
+    }
+ .cpa_heading h1 {
+     font-size: 26px;
+		padding:0px;
+    }
+.quickbooksbanner_txt h2 {
+    font-size: 31px;
+   
+}
+
+}
+
+@media(max-width:420px) {
+  .hero_desktop {
+    height: 1280px;
+  }
+  .global_youtubeimg{
+    margin-top: 10px;
+  }
+
+}
+
+@media(max-width:419px) {
+  .hero_desktop {
+    height: 1080px;
+  }
+ 
+}
+@media(max-width:401px) {
+  .hero_desktop {
+    height: 1150px;
+  }
+  .journey-step h3 {
+    font-size: 27px;
+    padding-top: 5px;
+}
+
+ 
+}
+

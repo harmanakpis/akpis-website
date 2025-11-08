@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+:root {
+  /* Brand colors */
+  --primary: #0d6efd;
+  --secondary: #6c757d;
+  --accent-orange: #f28f18;
+  --accent-blue: #015ff5;
+
+  /* Neutral colors */
+  --white: #ffffff;
+  --light: #f8f9fa;
+  --dark: #000;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.18);
+
+   /* Gradients */
+ --primary-gradient: linear-gradient(135deg, #015ff5 0%, #f28f18 100%);
+ --secondary-gradient: linear-gradient(135deg, #015ff5 0%, #08295f 100%);
+
+}
+:root {
+  /* Font families */
+  --font-primary: "Inter", sans-serif;
+  --font-secondary:"cursiveEdu NSW ACT Cursive", cursive;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: var(--secondary-gradient);
+}
+
+.Menu_bar li a {
+    font-size: 18px;
+    font-weight: 500;
+    color:var(--white) !important;
+    line-height: 1.2;
+    margin: 0 10px !important;
+    white-space: nowrap;
+}
+
+.menu_btn button {
+    margin: 0 20px;
+    border: 1px solid var(--primary) !important;
+    padding: 10px 30px;
+    border-radius: 40px;
+    color: var(--white);
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.menu_btn button:hover {
+    background-color: var(--accent-orange) !important;
+    color: var(--white) !important;
+    font-weight: 600;
+    border: 1px solid var(--accent-orange) !important;
+}
+
+.cart-wrapper {
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: var(--white);
+
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+.MenuDropdown li a {
+    background-color: var(--accent-blue);
+    color: var(--white) !important;
+    margin: 0px !important;
+    padding: 10px 20px;
+    border-bottom: 2px solid;
+}
+
+.MenuDropdown li a:hover {
+    background-color: var(--accent-orange) !important;
+    color: var(--white) !important;
+
+}
+
+.our_Program {
+    background-color: var(--accent-orange);
+    padding: 20px 0;
+}
+
+.our_program_right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.our_program_title a {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.our_program_right ul li {
+    list-style: none;
+}
+
+.our_program_right ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.our_Program_inner {
+    background-color: var(--primary);
+    padding: 20px 0;
+}
+
+.hero_desktop {
+    height: 650px;
+    background-color:var(--white);
+    background-image: linear-gradient(to right, rgba(127, 23, 47, 0.1) 0.7px, transparent 0.8px), linear-gradient(rgba(127, 23, 47, 0.1) 0.8px, transparent 0.5px);
+    background-size: 30px 30px;
+}
+
+
+.cpa_topper {
+    display: flex;
+
+    margin: 20px 0;
+}
+
+.cpa-btn {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 40px 8px 40px 8px;
+    background:var(--primary-gradient) !important;
+    color: var(--white);
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cpa-btn .big-text {
+    display: block;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+}
+
+.cpa-btn .small-text {
+    display: block;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+
+.cpa-btn:hover {
+    background: var(--accent-orange) !important;
+}
+
+.cpa_heading h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #00120B;
+    padding: 0 15px;
+}
+
+.cpa_heading .cpt_title-heading {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #00120B;
+    padding: 10px 15px;
+
+}
+
+.cpa_heading .cpa_title_desc {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 10px 15px;
+
+}
+
+.cpa_heading .cpa_btn {
+    background-color: var(--accent-blue);
+    color: #dddddd;
+    padding: 12px 18px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0px;
+}
+
+.cpa_heading .cpa_btn:hover {
+    background-color: var(--accent-orange);
+    color: #878787;
+
+}
+
+.cpa_img {
+    max-width: 1111px;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.cpa_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+
+.google_trading {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 12px 20px;
+    width: 200px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.main_google_trading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.font_google i {
+    font-size: 42px;
+    color: var(--accent-blue);
+
+}
+
+.para_google h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 6px;
+    font-family: var(--font-secondary);
+}
+
+.para_google p span i {
+    color:var(--accent-orange);
+    margin-left: 4px;
+}
+
+.voice_trust p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+}
+
+.home_main_component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.home_component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: linear-gradient(135deg, var(--accent-orange) 15%, var(--accent-blue) 90%);
+    margin: 20px 0;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: var(--white);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home_component:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.firstComponent {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.firstComponent img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.para_homecomponent h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.para_homecomponent p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+section.our_aluminiWork {
+    padding: 30px 0
+}
+
+.cpa_usa_ca {
+    background-color: var(--accent-orange);
+    
+}
+
+.cpa_usa_heading h1 {
+    font-size: 72px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Edu NSW ACT Cursive";
+    padding: 20px;
+    color: var(--white) !important;
+    padding-top: 60px;
+}
+
+.our_alumini-heading {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Edu NSW ACT Cursive";
+    color: var(--accent-orange);
+}
+
+.cpa-card {
+    display: flex;
+    align-items: center;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+
+.cpa-left {
+    width: 150px;
+    height: 150px;
+    border-radius: 45% 0 0 90%;
+    background: #4a90e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 40px;
+}
+
+.cpa-right {
+    margin-left: 20px;
+}
+
+.cpa-right h4 {
+    margin: 0;
+    font-size: 18px;
+    color: var(--dark);
+}
+
+.cpa-right h5 {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #4a90e2;
+}
+
+.cpa-right p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--dark);
+}
+
+.cpa_use_btn button {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 20px;
+    background:var(--primary-gradient);
+    color: var(--white);
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+section.why_chooseAkpis {
+    padding: 60px 0;
+  background-color: var(--white)dfc;
+  background-image: radial-gradient(var(--accent-orange) 0.5px, transparent 0.5px);
+  background-size: 25px 25px;
+}
+
+
+.why_chooseakpis_heading {
+    text-align: center;
+
+}
+
+.why_chooseakpis_heading h1 {
+    font-family: var(--secondary-gradient);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding-bottom: 15px;
+    color: #4a90e2;
+}
+
+.why_chooseakpis_heading span {
+
+    color: var(--accent-orange);
+}
+
+.why_chooseakpis_heading p {
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color:var(--dark);
+}
+
+.why_chooseakpis_features {
+    margin-top: 30px;
+}
+
+.feature_box {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    border: 1px solid var(--dark);
+    border-radius: 20px;
+    padding: 16px 24px;
+    height: 120px;
+
+}
+
+.circle_icon {
+    min-width: 14px;
+    height: 14px;
+    background-color: var(--accent-orange);
+    border-radius: 50%;
+    margin-top: 7px;
+}
+
+.feature_box p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.course-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+.youtube-icon {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+.youtube-icon img{
+    width: 100px;
+}
+.full_description_certified h1{
+      font-family: "Edu NSW ACT Cursive";
+      font-size: 102px;
+      color: var(--accent-blue);
+      line-height: 1.2;
+}
+.full_description_certified span{
+     color: var(--accent-orange);
+}
+.full_description_certified p{
+    font-size: 20px;
+    color: #00120B;
+    line-height: 1.2;
+    padding-top: 10px;
+}
+.full_description_certified button{
+    padding: 12px 65px;
+    border: none;
+    border-radius: 10px;
+    background:var(--primary-gradient);
+    color: var(--white);
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+
+}
+section.Desktop_imgage_cpa{
+    padding: 40px 0;
+}
+.para_bakerchoose h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Edu NSW ACT Cursive";
+    color: var(--accent-orange);
+    padding: 10px 0;
+
+}
+.para_bakerchoose h4{
+    font-size: 28px;
+    font-weight: 500;
+    color: #00120B;
+    padding: 10px 0;
+
+}
+.para_bakerchoose p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #00120B;
+
+}
+.cpa_evaluation {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+}
+.cpa_evaluation:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+.cpa_evaluation i {
+  font-size: 60px;
+  color: var(--accent-orange); /* accent color */
+  margin-bottom: 15px;
+}
+.cpa_evaluation h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--dark);
+}
+.cpa_evaluation p {
+  font-size: 18px;
+  color: var(--dark);
+  line-height: 1.6;
+}
+.globalMentorCpa{
+    background-color: var(--accent-orange);
+    padding: 30px 0;
+}
+.heading_global h2{
+    text-align: center;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--accent-blue);
+    font-family: var(--font-primary);
+
+}
+.heading_global span{
+     font-size: 42px;
+    font-family: var(--font-secondary);
+    color: #fff;
+
+}
+.global_mentor{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: var(--accent-blue);
+}
+.global_mentor_para h2{
+    padding: 20px 0 0 0;
+    font-size: 28px;
+    font-family: var(--font-secondary);
+    font-weight: 600;
+}
+.global_mentor_para p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.global_youtube_imgmain {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.global_youtubeimg img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Center YouTube icon */
+.youtube_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.youtube_icon img {
+  width: 40px; 
+  height: auto;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.visionary_in_global{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px), linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    padding: 60px 20px;
+}
+.visionary_global{
+    font-size: 68px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--accent-blue);
+    margin-bottom: 30px;
+}
+.visionary_global span{
+    color: var(--accent-orange);
+}
+.visionary_image {
+  max-width: 650px;
+  height: auto;
+  margin: 0 auto;      
+  text-align: center;  
+}
+.visionary_image i{
+    font-size: 30px;
+    color: var(--accent-orange);
+    border-radius: 50%;
+}
+
+.visionary_img {
+  width: 100%;
+  aspect-ratio: 1/1;
+     
+  object-fit: cover;  
+  border-radius: 10px;
+  display: block;
+}
+.visionary_image h4{
+    text-align: center;
+    font-size: 18px;
+}
+.visionary_card {
+    padding: 20px 15px;
+    border-radius: 20px;      
+    transition: all 0.3s ease; 
+    margin: 15px 0;
+}
+
+.visionary_card h3 {
+    font-family: var(--font-secondary) !important;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--accent-orange);
+    margin-bottom: 10px;
+}
+
+.visionary_card p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1b1a1a;
+}
+
+
+.visionary_card:hover {
+    background-color: #f28f18;   
+}
+
+.visionary_card:hover h3,
+.visionary_card:hover p {
+    color: var(--white) !important; 
+}
+
+.pathway_tofind{
+    background: var(--primary-gradient);
+    padding: 30px 0;
+    
+}
+.pathwayfind{
+    text-align: center;
+    font-size: 68px;
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    color: var(--light);
+    padding-bottom: 30px;
+    
+
+   
+}
+.pathway_findtxt{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.pathway_findtxt li{
+    margin: 10px 0;
+    font-size: 20px;
+    list-style: none;
+    font-weight: 600;
+}
+.cma_batch{
+    padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
